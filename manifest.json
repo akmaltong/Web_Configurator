@@ -1,0 +1,6 @@
+{
+  "short_name": "Configurator",
+  "name": "Interactive Equipment Configurator",
+  "start_url": ".",
+  "display": "standalone"
+}
