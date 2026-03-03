@@ -26,7 +26,7 @@ export const App = () => {
             <ProductScene key={product.id} product={product} />
           </Suspense>
           <ContactShadows position={[0, -0.01, 0]} opacity={0.35} scale={12} blur={2.5} far={4} />
-          <Environment files="/adamsbridge.hdr" />
+          <Environment files={`${process.env.PUBLIC_URL}/adamsbridge.hdr`} />
           <OrbitControls
             makeDefault
             minPolarAngle={0.2}
